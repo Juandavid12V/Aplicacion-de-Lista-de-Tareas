@@ -1,2 +1,6 @@
 react-app1/** linguist-detectable=true
 TaskApi/** linguist-detectable=true
+
+react-app1/package-lock.json linguist-documentation
+react-app1/tsconfig.json linguist-documentation
+react-app1/tsconfig.node.json linguist-documentation
