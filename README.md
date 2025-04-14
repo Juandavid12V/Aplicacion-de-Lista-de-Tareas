@@ -29,3 +29,18 @@ Este es un proyecto de lista de tareas con:
 - dotnet restore
 - dotnet run
 
+
+
+## 🛢 Configuración de la Base de Datos (PostgreSQL)
+
+1. Asegúrate de tener PostgreSQL instalado y corriendo.
+2. Crea una base de datos llamada `ProyectoTaskDB`.
+3. Ejecuta el siguiente Script para crear la tabla.
+
+CREATE TABLE Tasks (
+    Id SERIAL PRIMARY KEY,
+    Text TEXT NOT NULL,
+    Done BOOLEAN DEFAULT FALSE,
+    CreatedAt TIMESTAMPTZ DEFAULT NOW()
+);
+
