@@ -1,6 +1,14 @@
 react-app1/** linguist-detectable=true
 TaskApi/** linguist-detectable=true
 
+# Ignorar JSON de configuración
 react-app1/package-lock.json linguist-documentation
 react-app1/tsconfig.json linguist-documentation
 react-app1/tsconfig.node.json linguist-documentation
+TaskApi/appsettings.json linguist-documentation
+TaskApi/appsettings.Development.json linguist-documentation
+TaskApi/Properties/launchSettings.json linguist-documentation
+
+# Ignorar archivos generados por .NET
+TaskApi/obj/** linguist-generated
+TaskApi/bin/** linguist-generated
