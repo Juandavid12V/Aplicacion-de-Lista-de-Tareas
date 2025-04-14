@@ -9,7 +9,7 @@ Este es un proyecto de lista de tareas con:
 ## Estructura
 
 - `react-app1/` → Contiene la aplicación de React
-- `backend-dotnet/` → Contiene el backend en C# (.NET API)
+- `TaskApi` → Contiene el backend en C# (.NET API)
   
 
 ---
