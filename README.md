@@ -19,13 +19,13 @@ Este es un proyecto de lista de tareas con:
 
 ### 🔹 Frontend (React)
 
-cd react-app1
-npm install
-npm run dev
+- cd react-app1
+- npm install
+- npm run dev
 
 
 ### 🔹 Frontend (React)
-cd TaskApi
-dotnet restore
-dotnet run
+- cd TaskApi
+- dotnet restore
+- dotnet run
 
